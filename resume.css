@@ -1,0 +1,561 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&family=Roboto+Mono:wght@200&display=swap');
+*{
+    /* font-family: 'Roboto Mono', monospace; */
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+body{
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+header{
+    display: flex;
+    justify-content: center;
+    margin-top:  20px;
+}
+nav a{
+    padding: 5px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.hero .Profile{
+    width: 150px;
+    height: 150px;
+    z-index: 3;
+    border-radius: 50%;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    border: 3px solid #ffffff;
+}
+.hero p{
+    font-size: 1.7rem;
+    position: relative;
+    top: 25vh;
+    left: 45%;
+    font-weight: bolder;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.hero i{
+    font-size: 1rem;
+    position: relative;
+    top: 25vh;
+    left: 45%;
+    font-weight: bolder;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 4px;
+}
+.info{
+    background-color: #ffffff;
+    position: absolute;
+    top: 55%;
+    width: 100%;
+    height: 56vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 75vw;
+    height: auto;
+}
+.box p{
+    font-size: 1.2rem;
+}
+.info2{
+    background-color: rgb(223, 223, 223);
+    width: 100%;
+    height: 55vh;
+    position: relative;
+    top: 95vh;
+    display: flex;
+    flex-direction: row;
+
+}
+.info2 h2{
+    position: relative;
+    top: 10%;
+    left: 49%;
+    text-transform: uppercase;   
+    letter-spacing: 2px; 
+}
+.skills{
+    width: 170px;
+    height: 35px;
+    background-color: rgb(170, 170, 170);
+    border-radius: 20px;
+    position: relative;
+    top: 30%;
+    left: 15%;
+    box-shadow: 1px 1px 10px #ffffff;
+    margin: 20px;
+}
+.innerskills{
+    width: 50px;
+    max-width: auto;
+    height: 35px;
+    background-color: rgb(18, 99, 72);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transform: 0.5s;
+}
+.innerskills h3{
+    padding: 10px;
+}
+.skills2{
+    width: 170px;
+    height: 35px;
+    background-color: rgb(170, 170, 170);
+    border-radius: 20px;
+    position: relative;
+    top: 60%;
+    right: 38%;
+    box-shadow: 1px 1px 10px #ffffff;
+    margin: 0px;
+}
+.innerskills2{
+    width: 100px;
+    max-width: auto;
+    height: 35px;
+    background-color: rgb(206, 192, 0);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transform: 0.5s;
+}
+.innerskills2 h3{
+    padding: 10px;
+}
+.skills3{
+    width: 170px;
+    height: 35px;
+    background-color: rgb(170, 170, 170);
+    border-radius: 20px;
+    position: relative;
+    top: 60%;
+    right: 20%;
+    box-shadow: 1px 1px 10px #ffffff;
+    margin: 0px;
+}
+.innerskills3{
+    width: 120px;
+    max-width: auto;
+    height: 35px;
+    background-color: rgb(119, 30, 202);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transform: 0.5s;
+}
+.innerskills3 h3{
+    padding: 10px;
+}
+.info3{
+    background-color: #ffffff;
+    width: 100%;
+    height: 130vh;
+    position: absolute;
+    top: 155vh;
+}
+.info3 h2{
+    position: relative;
+    left: 1%;
+    text-align: center;
+    margin: 30px;
+    color: blue;
+    letter-spacing: 2px;
+}
+.Block{
+    width: 60vh;
+    height: 40vh;
+    position: relative;
+    top: 8%;
+    left: 18%;
+}
+.Block h3{
+    text-align: right;
+    color: blue;
+    
+}
+.Block h4{
+    text-align: right;
+    color: rgb(247, 70, 0);
+}
+.Block .month{
+    text-align: right;
+    color: rgb(136, 136, 136);
+}
+.Block2{
+    width: 60vh;
+    height: 40vh;
+    position: relative;
+    top: 20%;
+    left: 18%;
+}
+.Block2 h3{
+    text-align: right;
+    color: blue;
+}
+.Block2 h4{
+    text-align: right;
+    color: rgb(247, 70, 0);
+}
+.Block2 .month{
+    text-align: right;
+    color: rgb(136, 136, 136);
+}
+.Block3{
+    width: 60vh;
+    height: 40vh;
+    position: relative;
+    top: -33%;
+    left: 54%;
+}
+.Block3 h3{
+    text-align: left;
+    color: blue;
+}
+.Block3 h4{
+    text-align: left;
+    color: rgb(247, 70, 0);
+}
+.Block3 .month{
+    text-align: left;
+    color: rgb(136, 136, 136);
+}
+.line{
+    position: relative;
+    top: -83.6%;
+    left: 51.5%;
+    height: 56vh;
+    width: 0.1px;
+    border-left: 2px dotted rgb(0, 175, 245);
+}
+.point{
+    width: 10px;
+    height: 10px;
+    background-color:rgb(0, 0, 0) ;
+    border-radius: 50%;
+    position: absolute;
+    top: 18%;
+    left: 51.2%;
+}
+.point2{
+    width: 10px;
+    height: 10px;
+    background-color:rgb(0, 0, 0) ;
+    border-radius: 50%;
+    position: absolute;
+    top: 61%;
+    left: 51.2%;
+}
+.point3{
+    width: 10px;
+    height: 10px;
+    background-color:rgb(0, 0, 0) ;
+    border-radius: 50%;
+    position: absolute;
+    top: 39%;
+    left: 51.2%;
+}
+.info4{
+    /* background-color:  rgb(223, 223, 223); */
+    background-color: white;
+    width: 100%;
+    height: 130vh;
+    position: absolute;
+    top: 285vh;
+}
+.info4 h2{
+    position: relative;
+    left: 1%;
+    text-align: center;
+    margin: 30px;
+    color: blue;
+    letter-spacing: 2px;
+}
+.Block1{
+    width: 60vh;
+    height: 40vh;
+    position: relative;
+    top: 8%;
+    left: 18%;
+}
+.Block1 h3{
+    text-align: right;
+    color: blue;
+}
+.Block1 h4{
+    text-align: right;
+    color: rgb(247, 70, 0);
+}
+.Block1 .month1{
+    text-align: right;
+    color: rgb(0, 0, 0);
+}
+.Block11{
+    width: 60vh;
+    height: 40vh;
+    position: relative;
+    top: 20%;
+    left: 18%;
+}
+.Block11 h3{
+    text-align: right;
+    color: blue;
+}
+.Block11 h4{
+    text-align: right;
+    color: rgb(247, 70, 0);
+}
+.Block11 .month1{
+    text-align: right;
+    color: rgb(19, 19, 19);
+}
+.Block12{
+    width: 60vh;
+    height: 40vh;
+    position: relative;
+    top: -33%;
+    left: 54%;
+}
+.Block12 h3{
+    text-align: left;
+    color: blue;
+}
+.Block12 h4{
+    text-align: left;
+    color: rgb(247, 70, 0);
+}
+.Block12 .month1{
+    text-align: left;
+    color: rgb(12, 12, 12);
+}
+.line2{
+    position: relative;
+    top: -83.6%;
+    left: 51.5%;
+    height: 56vh;
+    width: 0.1px;
+    border-left: 2px dotted rgb(0, 175, 245);
+}
+.point1{
+    width: 10px;
+    height: 10px;
+    background-color:rgb(0, 0, 0) ;
+    border-radius: 50%;
+    position: absolute;
+    top: 18%;
+    left: 51.2%;
+}
+.point12{
+    width: 10px;
+    height: 10px;
+    background-color:rgb(0, 0, 0) ;
+    border-radius: 50%;
+    position: absolute;
+    top: 61%;
+    left: 51.2%;
+}
+.point13{
+    width: 10px;
+    height: 10px;
+    background-color:rgb(0, 0, 0) ;
+    border-radius: 50%;
+    position: absolute;
+    top: 39%;
+    left: 51.2%;
+}
+.info5{
+    position: absolute;
+    top: 410vh;
+    height: 130vh;
+    width: 100%;
+    background-color: #ffffff;
+}
+.info5 h2{
+    text-transform: uppercase;
+    position: relative;
+    left: 1%;
+    text-align: center;
+    margin: 30px;
+    color: blue;
+    letter-spacing: 2px;
+}
+
+.png{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.port{
+    width: 30vw;
+    height: 45vh;
+
+}
+.port img{
+    width: 100%;
+    height: 100%;
+}
+.port1{
+    
+    width: 30vw;
+    height: 45vh;
+    
+}
+.port1 img{
+    width: 100%;
+    height: 100%;
+}
+.port2{
+    width: 30vw;
+    height: 45vh;
+    
+}
+.port2 img{
+    width: 100%;
+    height: 100%;
+}
+.port3{
+    width: 30vw;
+    height: 45vh;
+    
+}
+.port3 img{
+    width: 100%;
+    height: 100%;
+}
+.port4{
+    width: 30vw;
+    height: 45vh;
+    
+}
+.port4 img{
+    width: 100%;
+    height: 100%;
+}
+.port5{
+    width: 30vw;
+    height: 45vh;
+    
+}
+.port5 img{
+    width: 100%;
+    height: 100%;
+}
+.info6{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 540vh;
+    background: linear-gradient(to right, rgb(78, 84, 200), rgb(143, 148, 251));
+}
+.info6 h2{
+    text-transform: uppercase;
+    position: relative;
+    left: 0%;
+    text-align: center;
+    margin: 30px;
+    color: rgb(233, 233, 233);
+    letter-spacing: 2px;
+}
+.input{
+    
+    width: 40vw;
+    height: 70vh;
+    position: relative;
+    top: 10%;
+    left: 15%;
+}
+.name{
+    width: 82%;
+    outline: none;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+}
+.mail{
+    width: 82%;
+    outline: none;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+}
+textarea{
+    width: 82%;
+    height: 10vh;
+    outline: none;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+}
+button{
+    background: transparent;
+    border: 2px solid rgb(255, 249, 249);
+    border-radius: 3px;
+    padding: 10px;
+    color: #ffffff;
+}
+::placeholder{
+    color: #ffffff;
+}
+.lil{
+    width: 40vw;
+    height: 70vh;
+    position: relative;
+    top: -61%;
+    left: 50%;
+    color: #ffffff;
+}
+.lil p{
+    padding: 5px 0px;
+}
+.socials{
+   
+    width: 60vw;
+    height: 7vh;
+    position: relative;
+    top: -75%;
+    left: 20%;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/* extras */
+#about-para {
+    padding: 10px;
+    width: 70%;
+    text-align: justify;
+    color: grey;
+    line-height: 28px;
+    font-size: 1.1rem;
+    margin: auto;
+}
+main span {
+    color: #2857a4;
+}
+.mb75px {
+    margin-bottom: 75px;
+}
+/* 2 extra */
+.social-icon a i:hover {
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
